@@ -5,6 +5,7 @@
 ### 1. Видео
 Посмотри видео ➜
 [Кто такой Data Engineer?](https://youtu.be/75Vu8NqH_cU?si=zYT6U7deVYEPkbmA)
+![ssh](png/de1.jpg)
 ***
 ### 2. Курсы
 Дальше тебе нужно научиться писать базовые запросы на SQL и на Python. В тренажерах внизу проходи так, как там просят. Не спрашивай зачем, тебе понадобятся эти инструменты в будущем!
@@ -30,6 +31,7 @@
 >
 ***
 ### 3. Github / Git
+![ssh](png/git_github.png)
 Регистрируешься на Github и подключаешь его к своему ПК.
 
 ➜ [Работа с github / git](https://github.com/halltape/HalltapeRoadmapDE/tree/main/1.%20Git)
@@ -37,7 +39,7 @@
 ***
 ### 4. Linux / Terminal
 Пробуешь привыкнуть и запомнить работу с этими командами в терминале
-
+![ssh](png/BASH_logo.png)
 ➜ [Работа с Linux / Terminal](https://github.com/halltape/HalltapeRoadmapDE/tree/main/2.%20Linux)
 
 

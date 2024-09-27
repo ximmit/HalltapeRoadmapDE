@@ -61,19 +61,19 @@ pe@Evgeniis-MacBook-Pro.local
 ### Подключим свой Github с помощью SSH
 Заходим в настройки **SSH and GPG keys**. Нажимаем New SSH key
 
-![ssh](png/git_ssh.png)
+![ssh](../png/git_ssh.png)
 
 **Вставляем скопированный ssh-keygen**
 
-![ssh2](png/git_ssh2.png)
-![ssh3](png/git_ssh3.png)
+![ssh2](../png/git_ssh2.png)
+![ssh3](../png/git_ssh3.png)
 
 Супер! Теперь мы можем скачивать все, что угодно с GitHub!
 
 *** 
 Но прежде, чем скачать репозиторий к себе на ПК, следует сделать его копию у себя на Github. Это будет лично ваша копия, с которой вы можете делать все что угодно (изменять, удалять, добавлять и т.д.)
 
-![fork](png/git_fork.png)
+![fork](../png/git_fork.png)
 * * * 
 ### В terminal (командная строка) заходим в папку, куда мы хотим скачать наш репозиторий
 
@@ -117,7 +117,7 @@ Music mysql Documents Pictures
 
 **Копируем ссылку на репозиторий**
 
-![fork2](png/git_fork2.png)
+![fork2](../png/git_fork2.png)
 
 **Команда ниже начнет скачивание репозитория с github в то место,
 где вы находитесь, согласно terminal.**
