@@ -36,9 +36,9 @@
 
 ***
 ### 4. Linux / Terminal
-Регистрируешься на Github и подключаешь его к своему ПК.
+Пробуешь привыкнуть и запомнить работу с этими командами в терминале
 
-➜ [Работа с github / git](https://github.com/halltape/HalltapeRoadmapDE/tree/main/1.%20Git)
+➜ [Работа с Linux / Terminal](https://github.com/halltape/HalltapeRoadmapDE/tree/main/2.%20Linux)
 
 
 
