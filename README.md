@@ -1,11 +1,44 @@
 # HalltapeRoadmapDE
-Roadmap для Data Engineer [Все материалы бесплатны]
+<i>Roadmap для Data Engineer [Все материалы бесплатны]</i>
+## Стартуем
+
+### 1. Видео
+Посмотри видео ➜
+[Кто такой Data Engineer?](https://youtu.be/75Vu8NqH_cU?si=zYT6U7deVYEPkbmA)
 ***
-### Начало
-1. Пройди эти два курса SQL и Python
+### 2. Курсы
+Дальше тебе нужно научиться писать базовые запросы на SQL и на Python. В тренажерах внизу проходи так, как там просят. Не спрашивай зачем, тебе понадобятся эти инструменты в будущем!
 
-- [SQL с нуля до оконок](https://karpov.courses/simulator-sql)
-- [Python с нуля до базы](https://stepik.org/course/58852/syllabus)
+Пройди эти два курса SQL и Python
 
-2. Регистрируешься на Github и подключаешь его к своему ПК
- - [Как подключиться к GitHub/Git](/1. Git/README.md)
+<table>
+  <tr>
+    <th align="center">Курс</th>
+    <th align="center">Продолжительность</th>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://karpov.courses/simulator-sql">SQL с нуля до оконок</a></td>
+    <td align="center">≈ 1-2 месяца</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://stepik.org/course/58852/syllabus">Python с нуля до базы</a></td>
+    <td align="center">≈ 1-2 месяца</td>
+  </tr>
+</table>
+
+>Если задача не получается и ты сидишь с ней уже больше часа, пропускай и переходи к следующей. Потом вернешься и дорешаешь, если будет желание. Не гонись за 100%. Это никто не оценит.
+>
+***
+### 3. Github / Git
+Регистрируешься на Github и подключаешь его к своему ПК.
+
+➜ [Работа с github / git](https://github.com/halltape/HalltapeRoadmapDE/tree/main/1.%20Git)
+
+***
+### 4. Linux / Terminal
+Регистрируешься на Github и подключаешь его к своему ПК.
+
+➜ [Работа с github / git](https://github.com/halltape/HalltapeRoadmapDE/tree/main/1.%20Git)
+
+
+
