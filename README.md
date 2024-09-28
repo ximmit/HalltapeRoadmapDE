@@ -45,4 +45,23 @@
 ➜ [Работа с Linux / Terminal](https://github.com/halltape/HalltapeRoadmapDE/tree/main/2.%20Linux)
 
 
+***
+### 5. Hadoop
+<img src="png/hadoop_logo.png" alt="bash" width="800"/>
+
+Экосистема Hadoop
+
+➜ [Работа с Linux / Terminal](https://github.com/halltape/HalltapeRoadmapDE/tree/main/2.%20Linux)
+
+
+***
+### 6. Spark
+<img src="png/spark_logo.png" alt="bash" width="800"/>
+
+Фреймворк Spark
+
+➜ [Работа с Linux / Terminal](https://github.com/halltape/HalltapeRoadmapDE/tree/main/2.%20Linux)
+
+
+
 
