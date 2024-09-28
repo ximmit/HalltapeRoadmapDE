@@ -38,8 +38,9 @@
 
 ***
 ### 4. Linux / Terminal
-Пробуешь привыкнуть и запомнить работу с этими командами в терминале
 <img src="png/BASH_logo.png" alt="bash" width="400"/>
+
+Пробуешь привыкнуть и запомнить работу с этими командами в терминале
 
 ➜ [Работа с Linux / Terminal](https://github.com/halltape/HalltapeRoadmapDE/tree/main/2.%20Linux)
 
