@@ -40,4 +40,29 @@
     grep "apple" file
 - chmod - изменение прав доступа к файлам и директориям.
     ```bash
-    chmod 755 file
+    chmod 755 test.txt
+
+Пример использования chmod (пригодится, когда нужно, чтобы файл мог запускаться сторонней программой и не было конфликтов)
+- Создадим файл и изменим права доступа (смотрите, как меняются права доступа в буквенном выражении)
+    ```bash
+    halltape@MacBookPro Desktop % touch test.txt
+    halltape@MacBookPro Desktop % ls -l
+    -rw-r--r--   1 halltape  staff    0 Oct  3 12:37 test.txt
+    halltape@MacBookPro Desktop % chmod 755 test.txt 
+    halltape@MacBookPro Desktop % ls -l
+    -rwxr-xr-x   1 halltape  staff    0 Oct  3 12:37 test.txt
+    halltape@MacBookPro Desktop % chmod 777 test.txt 
+    halltape@MacBookPro Desktop % ls -l
+    -rwxrwxrwx   1 halltape  staff    0 Oct  3 12:37 test.txt
+Таблица с обозначениями для chmod
+| Число | Право доступа                   |
+|-------|---------------------------------|
+| 0     | отсутствие прав (---)          |
+| 1     | разрешено только исполнение (--x) |
+| 2     | разрешена только запись (-w-)   |
+| 3     | разрешены запись и исполнение (-wx) |
+| 4     | разрешено только чтение (r--)   |
+| 5     | разрешены чтение и исполнение (r-x) |
+| 6     | разрешены чтение и запись (rw-)  |
+| 7     | полные права (rwx)              |
+
