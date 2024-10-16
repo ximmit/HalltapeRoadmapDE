@@ -1,11 +1,14 @@
 # HalltapeRoadmapDE
-<i>Roadmap для Data Engineer [Все материалы бесплатны]</i>
+<i>Roadmap для Data Engineer </i>
 ## Стартуем
 
 ### 1. Видео
-Посмотри видео ➜
-[Кто такой Data Engineer?](https://youtu.be/75Vu8NqH_cU?si=zYT6U7deVYEPkbmA)
 <img src="png/de1.jpg" alt="bash" width="600"/>
+
+Чтобы понять, зачем нужны дата инженеры и как им стать, посмотри вводное видео!
+
+➜ [Кто такой Data Engineer?](https://youtu.be/75Vu8NqH_cU?si=zYT6U7deVYEPkbmA)
+
 
 ***
 ### 2. Курсы
@@ -45,23 +48,34 @@
 
 ➜ [Работа с Linux / Terminal](https://github.com/halltape/HalltapeRoadmapDE/tree/main/2.%20Linux)
 
+***
+### 4. Data Warehouse
+<img src="png/data_warehouse.png" alt="bash" width="500"/>
+
+Нужно понимать, что такое хранилище данных, какие они бывают, чем отличаются и, как в целом можно грузить данные. Обязательно читай теорию!
+
+➜ [Теория по Data Warehouse](HADOOP/README.md)
+
+
 
 ***
-### 5. Hadoop
+### 999. Hadoop
 <img src="png/hadoop_logo.png" alt="bash" width="800"/>
 
-Экосистема Hadoop
+На некоторых проектах в качестве хранилища будет HDFS (Hadoop). Инфы из видоса снизу будет достаточно, чтобы успешно ответить на вопросы на собеседовании.
 
-➜ [Работа с Linux / Terminal](https://github.com/halltape/HalltapeRoadmapDE/tree/main/2.%20Linux)
+Смотри видео здесь ➜ [HDFS | Что это такое и как оно работает? [Hadoop HDFS]](https://youtu.be/ySDGh_1d87g)
+
+Презентация из видео ➜ [HDFS]('files/deep_dive_hdfs_pdf.pdf')
 
 
 ***
-### 6. Spark
+### 999. Spark
 <img src="png/spark_logo.png" alt="bash" width="800"/>
 
-Фреймворк Spark
+Spark изучайте только **после** **того**, как научились базово кодить на **python** и **SQL**. Без них будет очень **сложно** и **непонятно**.
 
-➜ [Работа с Linux / Terminal](https://github.com/halltape/HalltapeRoadmapDE/tree/main/2.%20Linux)
+Смотри видео здесь ➜ [Что такое Spark и как им пользоваться?](https://github.com/halltape/HalltapeRoadmapDE/tree/main/2.%20Linux)
 
 
 
