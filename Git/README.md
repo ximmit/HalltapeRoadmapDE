@@ -182,3 +182,9 @@ master
 **Загрузить!**
 > git push origin develop
 - Эта команда загружает все выбранные вами файлы на ветку develop. Все!
+
+
+***
+**Полезные ссылки**
+
+➜ [9 Git Команд на 99% Случаев Жизни](https://www.youtube.com/watch?v=XuFaQSW79rM)
