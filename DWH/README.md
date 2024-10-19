@@ -8,8 +8,10 @@
 - [Озеро данных](#озеро-данных)
 - [Batch-обработки и Lambda-архитектуры](#batch-обработки-и-lambda-архитектуры)
 - [Kappa-архитектура](#kappa-архитектура)
+  
 # Data Warehouse
 <img src="../png/olap_oltp.png" width="800"/>
+
 # OLTP-системы
 **OLTP** (Online Transaction Processing) - система оперативной обработки информации (транзакций).
 
