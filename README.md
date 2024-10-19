@@ -38,7 +38,7 @@
 ![ssh](png/git_github.png)
 Регистрируешься на Github и подключаешь его к своему ПК.
 
-➜ [Работа с github / git](https://github.com/halltape/HalltapeRoadmapDE/tree/main/1.%20Git)
+➜ [Работа с github / git](Git/README.md)
 
 ***
 ### 4. Linux / Terminal
@@ -46,7 +46,7 @@
 
 Пробуешь привыкнуть и запомнить работу с этими командами в терминале
 
-➜ [Работа с Linux / Terminal](https://github.com/halltape/HalltapeRoadmapDE/tree/main/2.%20Linux)
+➜ [Работа с Linux / Terminal](Linux/README.md)
 
 ***
 ### 4. Data Warehouse
@@ -83,7 +83,7 @@
 
 Spark изучайте только **после** **того**, как научились базово кодить на **python** и **SQL**. Без них будет очень **сложно** и **непонятно**.
 
-Смотри видео здесь ➜ [Что такое Spark и как им пользоваться?](https://github.com/halltape/HalltapeRoadmapDE/tree/main/2.%20Linux)
+Смотри видео здесь ➜ [Что такое Spark и как им пользоваться?](h)
 
 
 ***
