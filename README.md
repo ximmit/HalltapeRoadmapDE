@@ -29,6 +29,10 @@
     <td align="center"><a href="https://stepik.org/course/58852/syllabus">Python с нуля до базы</a></td>
     <td align="center">≈ 1-2 месяца</td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://stepik.org/course/68343/syllabus">Продвинутый уровень Python (вложенность, словари, функции)</a></td>
+    <td align="center">≈ 1-2 месяца</td>
+  </tr>
 </table>
 
 >Если задача не получается и ты сидишь с ней уже больше часа, пропускай и переходи к следующей. Потом вернешься и дорешаешь, если будет желание. Не гонись за 100%. Это никто не оценит.
