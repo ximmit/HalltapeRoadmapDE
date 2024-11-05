@@ -1,12 +1,9 @@
-<div style="display: flex; align-items: center;">
-    <h1 style="margin-right: 5px;">GREENPLUM</h1>
-    <img src="./../png/gp_inc.jpg" alt="ярлык" style="width: 40px; height: auto;">
-</div>
+<h1 style="text-align: center;">GREENPLUM</h1>
 
 **GreenPlum** — это массивно-параллельная, транзакционная аналитическая база данных построенная на основе БД PostgreSQL. В основу архитектуры GeenPlum заложена MPP-архитектура. 
 
 <p align="center">
-    <img src="./../png/gp_logo.png" alt="Брат за брата, как за основу взято!" width="740" height="320"/>
+    <img src="./../png/gp_logo.png" alt="Брат за брата, как за основу взято!" width="640" height="320"/>
 </p>
 
 ## MPP архитектура
