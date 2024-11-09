@@ -188,6 +188,7 @@ Spark изучайте только **после** **того**, как науч
 
 Проекты коллег DE, которые я рекомендую посмотреть:
 - [Обработка данных SpaceX API](https://github.com/ShustGF/spacex-api-analize)
+- [Генерация данных и создание витрин на PySpark](./PET_PROJECT/README.md)
 - [ETL-проект для начинающих Data Engineers: От почтового сервера до Greenplum](https://github.com/dim4eg91/DataEngineering/blob/main/articles/ETL_as_a_pet_project.md)
 
 > Будет круто, если ты напишешь свой собственный проект и запушишь его к себе на github. Это сильно поможет уложить в голове многие концепции при работы с данными
