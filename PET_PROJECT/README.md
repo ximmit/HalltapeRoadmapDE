@@ -71,3 +71,8 @@ ____
 2) [создание витрин данных](https://colab.research.google.com/drive/1Z5fVuajC1rLZQe_w2rJ2LFEzh1SV6KXq?usp=sharing)
 
 Для сборки проекта тебе понадобятся стабильный интернет и Google аккаунт. Вся инструкция по запуску описана в блокнотах.
+
+____
+### Проект №4 - Create mart in PySpark
+
+- [ETL-проект для начинающих Data Engineers: От почтового сервера до Greenplum](https://github.com/dim4eg91/DataEngineering/blob/main/articles/ETL_as_a_pet_project.md)
