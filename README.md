@@ -160,7 +160,7 @@
 
 Смотри видео здесь ➜ [HDFS | Что это такое и как оно работает? [Hadoop HDFS]](https://youtu.be/ySDGh_1d87g)
 
-Презентация из видео ➜ [HDFS]('files/deep_dive_hdfs_pdf.pdf')
+Презентация из видео ➜ [HDFS](files/deep_dive_hdfs_pdf.pdf)
 
 ***
 ### 999. Greenplum
@@ -175,7 +175,7 @@ Greenplum будет в 50% вакансиях на DE. Остальные бу�
 
 ➜ [Простое видео о Greenplum](https://www.youtube.com/watch?v=rLG9Z_HcKPY)
 
-Презентация по Greenplum ➜ [Greenplum]('files/deep_dive_hdfs_pdf.pdf')
+Презентация из видео ➜ [Greenplum](files/greenplum.pdf)
 
 ***
 ### 999. Spark
