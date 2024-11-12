@@ -171,7 +171,9 @@
 
 Greenplum будет в 50% вакансиях на DE. Остальные будут сидеть на Hadoop + Spark. На первых порах рекомендую **базово освоить** все три, но окунуться поглубже лишь в один на выбор (Spark | Greenplum). Если хватит сил на освоение обоих, флаг вам в руки!
 
- ➜ [Теория по Greenplum](GREENPLUM/README.md)
+➜ [Теория по Greenplum](GREENPLUM/README.md)
+
+➜ [Простое видео о Greenplum](https://www.youtube.com/watch?v=rLG9Z_HcKPY)
 
 Презентация по Greenplum ➜ [Greenplum]('files/deep_dive_hdfs_pdf.pdf')
 
