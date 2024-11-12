@@ -75,4 +75,8 @@ ____
 ____
 ### Проект №4 - От почтового сервера до Greenplum
 
+<p align="center">
+    <img src="../png/mail_pet_project.gif" width="600"/>
+</p>
+
 - [ETL-проект для начинающих Data Engineers: От почтового сервера до Greenplum](https://github.com/dim4eg91/DataEngineering/blob/main/articles/ETL_as_a_pet_project.md)
