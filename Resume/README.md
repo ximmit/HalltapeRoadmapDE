@@ -130,7 +130,8 @@
 ### Примеры описания опыта
 *Кради, как художник*
 
-<p align="center">
+<div style="text-align: center;">
+    <hr>
     <img src="../png/de1.png" width="700"/>
     <hr>
     <img src="../png/de2.png" width="700"/>
