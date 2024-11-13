@@ -131,9 +131,9 @@
 *Кради, как художник*
 
 <p align="center">
-    <img src="../png/de1.png" width="600"/>
-    <img src="../png/de2.png" width="600"/>
-    <img src="../png/de3.png" width="600"/>
-    <img src="../png/de4.png" width="600"/>
-    <img src="../png/de5.png" width="600"/>
+    <img src="../png/de1.png" width="700"/>
+    <img src="../png/de2.png" width="700"/>
+    <img src="../png/de3.png" width="700"/>
+    <img src="../png/de4.png" width="700"/>
+    <img src="../png/de5.png" width="700"/>
 </p>
