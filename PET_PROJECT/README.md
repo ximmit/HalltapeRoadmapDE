@@ -1,5 +1,18 @@
 # Pet Project
 
+## Содержание страницы
+
+- [Pet Project](#pet-project)
+  - [Содержание страницы](#содержание-страницы)
+  - [Проекты](#проекты)
+    - [Проект №1 - HalltapeETLPipeline](#проект-1---halltapeetlpipeline)
+    - [Проект №2 - spacex-api-analize](#проект-2---spacex-api-analize)
+    - [Проект №3 - Create mart in PySpark](#проект-3---create-mart-in-pyspark)
+    - [Проект №4 - От почтового сервера до Greenplum](#проект-4---от-почтового-сервера-до-greenplum)
+  - [Открытые API для проектов](#открытые-api-для-проектов)
+
+## Проекты
+
 ### Проект №1 - HalltapeETLPipeline
 
 <p align="center">
@@ -30,6 +43,7 @@
 <p align="center">
     <img src="../png/pp_2.png" width="600"/>
 </p>
+
 
 Задачами проекта является настройка ETL-процесса по загрузке данных из API в базу данных, настройка сетей и логической репликации данных, автоматизация создания аналитических запросов поверх сырых данных и визуальное представление результатов на дашборде.
 
@@ -80,3 +94,9 @@ ____
 </p>
 
 - [ETL-проект для начинающих Data Engineers: От почтового сервера до Greenplum](https://github.com/dim4eg91/DataEngineering/blob/main/articles/ETL_as_a_pet_project.md)
+
+## Открытые API для проектов
+
+* [Launch Library 2](https://thespacedevs.com/llapi) - Запуски ракет, космические события и космические полеты с экипажем.
+* [SpaceX API](https://github.com/r-spacex/SpaceX-API/tree/master/docs#rspacex-api-docs) - Информация о компании SpaceX.
+* [Wikimedia](https://dumps.wikimedia.org/other/) - Дампы данных о посмотрах страниц в Википедии в текстовом виде. 
