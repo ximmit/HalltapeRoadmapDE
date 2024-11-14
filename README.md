@@ -13,6 +13,7 @@
     - [6. Модели данных](#6-модели-данных)
     - [7. Data Vault (Hub - Satellite - Link)](#7-data-vault-hub---satellite---link)
     - [999. Hadoop](#999-hadoop)
+    - [999. Airflow](#999-airflow)
     - [999. Greenplum](#999-greenplum)
     - [999. Spark](#999-spark)
     - [999. Pet Project](#999-pet-project)
@@ -161,6 +162,18 @@
 Смотри видео здесь ➜ [HDFS | Что это такое и как оно работает? [Hadoop HDFS]](https://youtu.be/ySDGh_1d87g)
 
 Презентация из видео ➜ [HDFS](files/deep_dive_hdfs_pdf.pdf)
+
+***
+### 999. Airflow
+
+<p align="center">
+    <img src="png/airflow_lofo.png" width="600"/>
+</p>
+
+
+Изучать только после осовения Python, SQL, Docker, Командной строки Linux. В целом оркестратор Airflow – частый инструмент среди компаний, поэтому он уже классика и шарить за него нужно.
+
+➜ [Теория по Airflow](AIRFLOW/README.md)
 
 ***
 ### 999. Greenplum

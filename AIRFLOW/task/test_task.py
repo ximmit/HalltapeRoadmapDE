@@ -7,6 +7,7 @@ from hashlib import md5
 from sqlalchemy import create_engine
 import pandas as pd
 
+
 default_args = {
   'owner': '@Shust_DE',
   'depends_on_past': False,
@@ -14,6 +15,7 @@ default_args = {
   'email': ['https://t.me/Shust_DE'],
   'schedule_interval': "@hourly",
 }
+
 
 def _generate_file(**kwargs):
   ti = kwargs['ti']
@@ -24,13 +26,13 @@ def _generate_file(**kwargs):
   ti.xcom_push(key='path_file', value=path_filename)
 
 
-
 def _data_in_postgres(**kwargs):
   ti = kwargs['ti']
   df = pd.read_csv("/tmp/processed_data/data.csv")
   engine = create_engine('postgresql://user:user@host.docker.internal:5431/user')
   df.to_sql('table_name', engine, if_exists='append', schema='public', index=False)
   ti.xcom_push(key='count_string', value=len(df))
+
 
 dag = DAG(
     dag_id="load_file_to_psql",
@@ -43,12 +45,14 @@ generate_file = PythonOperator(
   dag=dag,
 )
 
+
 move_data_file = BashOperator(
   task_id="move_data_file",
   bash_command=("mkdir -p /tmp/processed_data/ && "
           "mv {{ ti.xcom_pull(task_ids='generate_file', key='path_file') }} /tmp/processed_data/"),
   dag=dag,
 )
+
 
 create_table_psql = PostgresOperator(
 	task_id='create_table',
@@ -58,11 +62,13 @@ create_table_psql = PostgresOperator(
                              md5_id text); """
 )
 
+
 data_in_postgres = PythonOperator(
     task_id='data_in_postgres',
     python_callable=_data_in_postgres,
   dag=dag,
 )
+
 
 print_count_string_in_df = BashOperator(
   task_id="print_count_string_in_df",
