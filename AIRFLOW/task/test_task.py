@@ -8,15 +8,11 @@ from sqlalchemy import create_engine
 import pandas as pd
 
 default_args = {
-  'owner': 'airflow',
+  'owner': '@Shust_DE',
   'depends_on_past': False,
   'start_date': datetime(2024, 11, 13),
-  'email': ['airflow@example.com'],
-  'email_on_failure': False,
-  'email_on_retry': False,
-  'retries': 1,
-  'retry_delay': timedelta(minutes=5),
-  'schedule_interval': None,
+  'email': ['https://t.me/Shust_DE'],
+  'schedule_interval': "@hourly",
 }
 
 def _generate_file(**kwargs):
@@ -75,8 +71,10 @@ print_count_string_in_df = BashOperator(
 )
 
 
-(generate_file >> 
-move_data_file >> 
-create_table_psql >> 
-data_in_postgres >> 
-print_count_string_in_df)
+(
+    generate_file >> 
+    move_data_file >> 
+    create_table_psql >> 
+    data_in_postgres >> 
+    print_count_string_in_df
+)
