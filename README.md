@@ -167,7 +167,7 @@
 ### 999. Airflow
 
 <p align="center">
-    <img src="png/airflow_logo.png" alt="hdfs" width="600"/>
+    <img src="png/airflow_logo.jpg" alt="hdfs" width="600"/>
 </p>
 
 
