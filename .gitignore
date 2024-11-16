@@ -1,2 +1,5 @@
 .DS_Store
 .idea
+**/venv/
+**/.venv/
+**/jaffle_shop_duckdb/
