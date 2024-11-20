@@ -15,7 +15,7 @@
     - [999. Hadoop](#999-hadoop)
     - [999. Airflow](#999-airflow)
     - [999. Greenplum](#999-greenplum)
-    - [999. ClickHouse](#999-clickhouse-1)
+    - [999. ClickHouse](#999-clickhouse)
     - [999. Spark](#999-spark)
     - [999. dbt (data build tool)](#999-dbt-data-build-tool)
     - [999. Apache Kafka](#999-apache-kafka)
