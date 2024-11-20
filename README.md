@@ -194,7 +194,7 @@ Greenplum будет в 50% вакансиях на DE. Остальные бу�
 Презентация из видео ➜ [Greenplum](files/greenplum.pdf)
 
 ***
-### 999. Greenplum
+### 999. ClickHouse
 
 <p align="center">
     <img src="./png/ch_logo.jpg"/>
