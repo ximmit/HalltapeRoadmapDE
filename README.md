@@ -12,6 +12,7 @@
     - [5. Нормальные формы](#5-нормальные-формы)
     - [6. Модели данных](#6-модели-данных)
     - [7. Data Vault (Hub - Satellite - Link)](#7-data-vault-hub---satellite---link)
+    - [8. Docker](#8-docker)
     - [999. Hadoop](#999-hadoop)
     - [999. Airflow](#999-airflow)
     - [999. Greenplum](#999-greenplum)
@@ -151,6 +152,14 @@
 
 Читаем конспект ➜ [Data Vault](files/data_vault.pdf)
 
+***
+### 8. Docker
+
+<p align="center">
+    <img src="png/docker_logo.png" alt="nf" width="600"/>
+</p>
+
+➜ [Теория по Docker](DOCKER/README.md)
 
 ***
 ### 999. Hadoop
