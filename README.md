@@ -229,6 +229,8 @@ Spark изучайте только **после** **того**, как науч
 
 Смотри видео здесь ➜ [Что такое Spark и как им пользоваться?](h)
 
+Разверни свой Spark кластер или запусти его локально тут ➜ [Spark Cluster](https://github.com/halltape/HalltapeSparkCluster/tree/main)
+
 
 ***
 ### 999. dbt (data build tool)
