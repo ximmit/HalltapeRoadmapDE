@@ -13,7 +13,6 @@
     - [6. Модели данных](#6-модели-данных)
     - [7. Data Vault (Hub - Satellite - Link)](#7-data-vault-hub---satellite---link)
     - [8. Docker](#8-docker)
-    - [9. Теоритические вопросы собеседований](#9-теоритические-вопросы-собеседований)
     - [999. Hadoop](#999-hadoop)
     - [999. Airflow](#999-airflow)
     - [999. Greenplum](#999-greenplum)
@@ -22,6 +21,7 @@
     - [999. dbt (data build tool)](#999-dbt-data-build-tool)
     - [999. Apache Kafka](#999-apache-kafka)
     - [999. Pet Project](#999-pet-project)
+    - [9. Теоретические вопросы c собеседований](#9-теоретические-вопросы-c-собеседований)
     - [999. Резюме и Работа](#999-резюме-и-работа)
     - [999. Рабочие кейсы](#999-рабочие-кейсы)
 
@@ -163,14 +163,6 @@
 
 ➜ [Теория по Docker](DOCKER/README.md)
 
-***
-### 9. Теоретические вопросы собеседований
-
-<p align="center">
-    <img src="png/que.jpg" alt="nf" width="600"/>
-</p>
-
-➜ [Вопросы по SQL](QUESTION/SQL/READMY.md)
 
 ***
 ### 999. Hadoop
@@ -282,6 +274,16 @@ Spark изучайте только **после** **того**, как науч
  ➜ [Pet Projects](PET_PROJECT/README.md)
 
 > Будет круто, если ты напишешь свой собственный проект и запушишь его к себе на github. Это сильно поможет уложить в голове многие концепции при работы с данными
+
+
+***
+### 9. Теоретические вопросы c собеседований
+
+<p align="center">
+    <img src="png/que.jpg" alt="nf" width="600"/>
+</p>
+
+➜ [Вопросы по SQL](QUESTION/SQL/README.md)
 
 
 ***
