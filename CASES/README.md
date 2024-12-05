@@ -29,9 +29,90 @@ source_table = spark.sql(f'SHOW PARTITIONS {TABLE}')\
 
 Можем представить, что источник по Вкладам сдох и таблица с вкладами новых данных не имеет. Через месяц ее починят и наш скрипт начнет с той даты, которая была последней в витрине данных. При этом другие продукты никак не пострадают. 
 
+***
+### КЕЙС Использование dbt
+
+Ко мне пришли аналитики. У них было три SQL скрипта длиной в 500-800 строк. В этих SQL было очень много операций CASE WHEN и дальше какое-то условие, типа
+```sql
+SELECT
+    CASE 
+        WHEN URL LIKE '%business%' THEN 'camp_business'
+        WHEN URL LIKE '%business1%' THEN 'camp_business1'
+        WHEN URL LIKE '%business2%' THEN 'camp_business2'
+        ... (500 условий)
+        ELSE 'NO'
+    END
+FROM TABLE
+```
+У них это все невозможно было читать, рефакторить, да и они там потом еще делали несколько UNION и он падал, когда это можно было и не делать. Ну просто хардкодом были написаны скрипты. 
+Я взял dbt и написал модельку типа:
+```sql
+{{ config(
+    materialized='incremental',
+    engine='ReplicatedMergeTree',
+    tags=['etea']
+) }}
+
+
+# Read dbt_marks
+{% set sql %}
+    select * from {{ ref('dbt_marks') }}
+{% endset %}
+{% set res = run_query(sql) %}
 
 
 
+{% set exec_date = var('execution_date')|string %}
+{{ log("exec_date: " ~ exec_date, True) }}
+
+
+
+# Save to condition_list, result_list
+{% if execute %}
+
+    {% set condition_list = res.columns[0].values() %}
+    {% set result_list = res.columns[1].values() %}
+
+{% else %}
+
+    {% set results_list = [] %}
+
+{% endif %}
+
+
+
+{% for condition, result in zip(condition_list, result_list) %}
+    SELECT
+        dateTime,
+        CASE
+            WHEN {{ condition }} THEN {{ result }}
+            ELSE 'undefined'
+        END as URL,
+        counterUserIDHash,
+        isPageView
+    FROM {{ source('schema', 'your_table') }}
+    WHERE dateTime::DATE = '{{ exec_date }}'
+    AND isPageView = '1'
+    AND URL not like '%stage%'
+    {% if not loop.last %}
+        union all
+    {% endif %}
+{% endfor %}
+```
+Тут можно увидеть много непонятного, но присмотритесь к главному SQL скрипту. Там видно, что в условия CASE WHEN подставляется некий шаблон. У меня есть цикл, внутри которого запускается SQL запрос с ОДНИМ CASE WHEN. В этом цикле в условия поочередно подставляются значения. Эти значения берутся из обычного txt файлика. 
+
+Вот так выглядит файлик:
+```
+condition,result
+URL like '%business/ecom/smm%','smm'
+URL like '%business/ecom/all%','all'
+URL like '%business/nbs/insales%','insales'
+...
+```
+
+И теперь аналитики могут просто добавлять сколько угодно своих дополнительных условий в этот файлик, а dbt будет автоматически читать оттуда все строчки и подставлять в запрос и выполнять его!
+
+И теперь вместо 800 строк SQL кода у нас есть простой SQL запрос и txt файлик.
 
 <!-- Сборка витрины на dbt для аналитиков 
 
