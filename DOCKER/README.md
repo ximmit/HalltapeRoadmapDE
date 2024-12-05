@@ -36,61 +36,60 @@ RUN pip install -r requirements.txt
 CMD ["python", "app.py"]
 ```
 
-Основные команды Dockerfile:
-    
-    •	FROM — задаёт базовый образ (например, python:3.10).
-	•	COPY — копирует файлы с хост-машины в контейнер.
-	•	WORKDIR — задаёт рабочую директорию.
-	•	RUN — выполняет команды (например, установка пакетов).
-	•	CMD — определяет команду, которая выполнится при запуске контейнера.
 
 ### Что такое docker-compose?
 
 docker-compose — это инструмент для запуска нескольких связанных контейнеров.
 
-Вместо запуска контейнеров вручную, вы описываете их конфигурацию в одном YAML-файле и управляете ими как единой системой.
+Вместо запуска контейнеров вручную, вы описываете их конфигурацию в одном YAML-файле и управляете ими как единой системой. Кстати формат файла пишут, как **.yaml или .yml** (Разницы нет)
+
+Файлик называют **docker-compose.yaml**
 
 ```Dockerfile
-version: "3.9"
+# Можно собирать из нескольких сервисов
+version: "3.6" # Версия формата файла Docker Compose, используемая в данном случае, — `3.6`.
 services:
-  app:
-    build:
-      context: .
-      dockerfile: Dockerfile
+  jupyterlab:
+    image: andreper/jupyterlab:3.0.0-spark-3.0.0 # Образ: `andreper/jupyterlab:3.0.0-spark-3.0.0`
+    container_name: jupyterlab # Имя контейнера: `jupyterlab`
     ports:
-      - "5000:5000"
+      - 8888:8888 # 8888:8888 (интерфейс JupyterLab)
+      - 4040:4040 # 4040:4040 (интерфейс Spark UI)
     volumes:
-      - .:/app
-    environment:
-      - FLASK_ENV=development
-  db:
-    image: postgres:13
-    environment:
-      POSTGRES_USER: user
-      POSTGRES_PASSWORD: password
-      POSTGRES_DB: my_database
+      - ./build/workspace:/opt/workspace # Слева папка у вас на компе, а справа папка внутри контейнера. Все, что положишь в папку workspace, будет автоматически и внутри контейнера!
+  spark-master:
+    image: andreper/spark-master:3.0.0
+    container_name: spark-master
     ports:
-      - "5432:5432"
+      - 8080:8080
+      - 7077:7077
+    volumes:
+      - ./build/workspace:/opt/workspace
+  spark-worker-1:
+    image: andreper/spark-worker:3.0.0
+    container_name: spark-worker-1
+    environment:
+      - SPARK_WORKER_CORES=2
+      - SPARK_WORKER_MEMORY=2g
+    ports:
+      - 8081:8081
+    volumes:
+      - ./build/workspace:/opt/workspace
+    depends_on:
+      - spark-master # Зависит от сервиса spark-master, чтобы гарантировать его запуск после мастера.
+
 ```
-
-Что здесь происходит?
-1. services: Описывает контейнеры.
-- app: Приложение (собирается из Dockerfile).
-- db: СУБД PostgreSQL (использует готовый образ).
-2. ports: Связывает порты хоста и контейнера.
-3. volumes: Привязывает локальные файлы к контейнеру.
-4. environment: Передаёт переменные окружения в контейнер.
-
 
 **Для запуска:**
+Этой командой можно запустить сборку и запуск докер контейнера в фоновом режиме (в терминале не будут отображаться логи)
 ```Dockerfile
-docker-compose up
+docker-compose up -d
 ```
+
+Пример docker-compose взят [отсюда](https://github.com/halltape/HalltapeSparkCluster)
 
 
 ## Распространённые команды Docker
-
-Чтобы начать использовать Docker, полезно знать несколько базовых команд:
 
 ### Управление образами
 - **`docker build -t <имя_образа> .`**  
@@ -101,8 +100,6 @@ docker-compose up
   Удаляет образ по его идентификатору.
 
 ### Управление контейнерами
-- **`docker run -d -p 5000:5000 <имя_образа>`**  
-  Запускает контейнер в фоновом режиме и связывает порты.
 - **`docker ps`**  
   Показывает запущенные контейнеры.
 - **`docker ps -a`**  
@@ -115,5 +112,3 @@ docker-compose up
 ### Просмотр логов
 - **`docker logs <container_id>`**  
   Показывает логи контейнера.
-- **`docker logs -f <container_id>`**  
-  Отображает логи в реальном времени.
