@@ -163,7 +163,6 @@
 
 ➜ [Теория по Docker](DOCKER/README.md)
 
-
 ***
 ### 999. Hadoop
 
@@ -224,7 +223,7 @@ ClickHouse будет в 80% вакансиях для постоения вит
 ### 999. Spark
 
 <p align="center">
-    <img src="png/spark_logo.png" alt="spark" width="600"/>
+    <img src="png/spark.png" alt="spark" width="600"/>
 </p>
 
 
