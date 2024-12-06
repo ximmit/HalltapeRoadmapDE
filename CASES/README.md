@@ -128,4 +128,21 @@ URL like '%business/nbs/insales%','insales'
 Третий вариант через EXTERNAL TABLE:
 В самом Dbeaver в Greenplum создаем внешнюю таблицу в S3 с помощью PXF. Короче в гринплам создается типа ссылка на данные в S3 (прям указывается конкретный путь до папки). Запрос пишем в ГП, а данные лежат в S3. Но при этом чтение все, как будто пользуемся обычной таблицей. Супер! Значит в старом Гринпламе создаем внешнюю таблицу в S3. И в новом Гринпламе создаем внешнюю таблицу в S3 на ту же папку! Т.е. у нас два ГП читают из одного места.
 
-Теперь в старом GP мы вставляем во внешнюю таблицу необходимые данные. А потом в новом ГП из внешней таблицы вычитываем их. Это займет конечно время, если таблица огромная, но это всяко легче и быстрее, чем два предыдущих способа.
+**Пример кода на создание внешней таблицы в Greenplum**.
+При этом данные сгружаются в S3 и их можно прям потрогать
+```sql
+Drop EXTERNAL TABLE if exists pxf_write_paqruet_s3;
+CREATE WRITABLE EXTERNAL TABLE pxf_write_paqruet_s3 (
+ visit_id text,
+ body text,
+ meta__checkpoint text
+)
+LOCATION ('pxf://data-lake/test/?PROFILE=s3:parquet&accesskey=***&secretkey=***&endpoint=https://storage.yandexcloud.net')
+FORMAT 'CUSTOM' (FORMATTER='pxfwritable_export');
+INSERT into pxf_write_paqruet_s3
+select *
+from stg2.table
+where meta__checkpoint = '2024-10-01';
+```
+
+Собственно в новом ГП мы делаем тоже самое, но уже не ``` INSERT INTO ```, а просто читаем, типа ``` SELECT * FROM TABLE ```. Это займет конечно время, если таблица огромная, но это всяко легче и быстрее, чем два предыдущих способа.
