@@ -233,6 +233,8 @@ Spark изучайте только **после** **того**, как науч
 
 Разверни свой Spark кластер или запусти его локально тут ➜ [Spark Cluster](https://github.com/halltape/HalltapeSparkCluster/tree/main)
 
+➜ [Полезные материалы по Spark](SPARK/README.md)
+
 
 ***
 ### 15. dbt (data build tool)
