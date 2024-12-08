@@ -307,6 +307,11 @@ Spark изучайте только **после** **того**, как науч
 
 ➜ [Вопросы по SQL](QUESTION/SQL/README.md)
 
+➜ [Типичные вопросы с собесов на все темы](QUESTION/BIG_DATA/README.md)
+
+➜ [Telegram Bot для подготовки к собесам](https://t.me/DataismPrepBot)
+
+
 
 ***
 ### 18. Резюме и Работа
