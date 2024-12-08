@@ -3,6 +3,7 @@
 
 Оглавление
 - [HalltapeRoadmapDE](#halltaperoadmapde)
+  - [Каналы авторов Roadmap | Подпишись!](#каналы-авторов-roadmap--подпишись)
     - [0. Деньги](#0-деньги)
     - [1. Кто такой Дата Инженер?](#1-кто-такой-дата-инженер)
     - [2. Курсы](#2-курсы)
@@ -24,7 +25,19 @@
     - [18. Теоретические вопросы c собеседований](#18-теоретические-вопросы-c-собеседований)
     - [19. Резюме и Работа](#19-резюме-и-работа)
     - [20. Рабочие кейсы](#20-рабочие-кейсы)
-  
+    - [21. Полезные ссылки](#21-полезные-ссылки)
+
+***
+## Каналы авторов Roadmap | Подпишись!
+
+| Канал | Автор |
+|------------------|--------|
+| [Канал Я – Дата Инженер](https://t.me/halltape_data) | [t.me/halltape](https://t.me/halltape) |
+| [Канал Инженерообязанный Из военки в IT](https://t.me/Shust_DE) | [t.me/ShustDE](https://t.me/ShustDE) |
+| [Канал rzv Data Engineering](https://t.me/rzv_de) | [t.me/razvodov_de_mentor](https://t.me/razvodov_de_mentor) |
+
+
+
 ***
 
 ### 0. Деньги
@@ -61,7 +74,7 @@
 
 ➜ [Интервью с Senior/Team Lead DE](https://www.youtube.com/watch?v=3k4kGw_dv0M)
 
-
+➜ [Мок-собеседование на junior+ Data Engineer](https://www.youtube.com/watch?v=lBSLl4ANUhw)
 
 
 
@@ -313,10 +326,42 @@ Spark изучайте только **после** **того**, как науч
 ### 20. Рабочие кейсы
 
 <p align="center">
-    <img src="png/cases.jpg" width="500"/>
+    <img src="png/cases.jpg" width="600"/>
 </p>
 
 Вот где там могут быть проблемы? Просто перекладываем таблички.. А нет. Проблем и ошибок на самом деле больше, чем вы думаете. И хорошо, если бы задачи решались оним универскальным скриптом, но так не происходит. Ниже примеры встречающихся кейсов на работе:
 
 ➜ [Реальные задачи на работе](CASES/README.md)
 
+
+***
+### 21. Полезные ссылки
+
+<p align="center">
+    <img src="png/links.jpeg" width="600"/>
+</p>
+
+**Почитать про Data Engineer**
+- [Канал Я – Дата Инженер](https://t.me/halltape_data)
+- [Все, о чем не говорят вслух про Data Engineer](https://boosty.to/halltape_data)
+- [Канал Инженерообязанный | Из военки в IT](https://t.me/Shust_DE)
+- [Канал rzv Data Engineering](https://t.me/rzv_de)
+
+**Найти работу**
+- [Сайт агрегатор для Data Engineer](https://www.dataengineers.pro)
+- [Найти работу для DE Канал 1](https://t.me/data_engineer_jobs)
+- [Найти работу для DE Канал 2](https://t.me/dataeng_jobs)
+- [Найти работу для DE Канал 3](https://t.me/de_rabota)
+- [Найти работу для DE Канал 4](https://t.me/datajob)
+- [Найти работу для DE Канал 5](https://t.me/dsml_jobs)
+
+**Посмотреть про Data Engineer**
+
+- [Кто такой Data Engineer?](https://youtu.be/75Vu8NqH_cU?si=zYT6U7deVYEPkbmA)
+- [Как я попал в DE?](https://www.youtube.com/watch?v=tltPPLTemzE&t=1s)
+- [Интервью с Senior/Team Lead DE](https://www.youtube.com/watch?v=3k4kGw_dv0M)
+- [Мок-собеседование на junior+ Data Engineer](https://www.youtube.com/watch?v=lBSLl4ANUhw)
+- [Мок-собеседование на middle Data Engineer](https://www.youtube.com/watch?v=ZdmWjWIUn2A&t=2056s)
+- [Data Engineer тренирует System Design секцию](https://www.youtube.com/watch?v=6n92YA6UXlQ)
+- [РАЗДАЮ БАЗУ И МОТИВАЦИЮ ПО DATA ENGINEER!](https://www.youtube.com/watch?v=piZP5KCECGI&t=5273s)
+- [Крутить ОПЫТ или НЕТ | СТРИМ на Twitch](https://www.youtube.com/watch?v=Vfeb1LNCjPw)
