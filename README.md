@@ -14,18 +14,18 @@
     - [6. Модели данных](#6-модели-данных)
     - [7. Data Vault (Hub - Satellite - Link)](#7-data-vault-hub---satellite---link)
     - [8. Docker](#8-docker)
-    - [10. Hadoop](#10-hadoop)
-    - [11. Airflow](#11-airflow)
-    - [12. Greenplum](#12-greenplum)
-    - [13. ClickHouse](#13-clickhouse)
-    - [14. Spark](#14-spark)
-    - [15. dbt (data build tool)](#15-dbt-data-build-tool)
-    - [16. Apache Kafka](#16-apache-kafka)
-    - [17. Pet Project](#17-pet-project)
-    - [18. Теоретические вопросы c собеседований](#18-теоретические-вопросы-c-собеседований)
-    - [19. Резюме и Работа](#19-резюме-и-работа)
-    - [20. Рабочие кейсы](#20-рабочие-кейсы)
-    - [21. Полезные ссылки](#21-полезные-ссылки)
+    - [9. Hadoop](#9-hadoop)
+    - [10. Airflow](#10-airflow)
+    - [11. Greenplum](#11-greenplum)
+    - [12. ClickHouse](#12-clickhouse)
+    - [13. Spark](#13-spark)
+    - [14. dbt (data build tool)](#14-dbt-data-build-tool)
+    - [15. Apache Kafka](#15-apache-kafka)
+    - [16. Pet Project](#16-pet-project)
+    - [17. Теоретические вопросы c собеседований](#17-теоретические-вопросы-c-собеседований)
+    - [18. Резюме и Работа](#18-резюме-и-работа)
+    - [19. Рабочие кейсы](#19-рабочие-кейсы)
+    - [20. Полезные ссылки](#20-полезные-ссылки)
 
 ***
 ## Каналы авторов Roadmap | Подпишись!
@@ -185,7 +185,7 @@
 ➜ [Теория по Docker](DOCKER/README.md)
 
 ***
-### 10. Hadoop
+### 9. Hadoop
 
 <p align="center">
     <img src="png/hadoop_logo.png" alt="hdfs" width="600"/>
@@ -199,7 +199,7 @@
 Презентация из видео ➜ [HDFS](files/deep_dive_hdfs_pdf.pdf)
 
 ***
-### 11. Airflow
+### 10. Airflow
 
 <p align="center">
     <img src="png/airflow_logo.jpg" alt="hdfs" width="600"/>
@@ -211,7 +211,7 @@
 ➜ [Теория по Airflow](AIRFLOW/README.md)
 
 ***
-### 12. Greenplum
+### 11. Greenplum
 
 <p align="center">
     <img src="./png/gp_logo.png" width="640" height="320"/>
@@ -226,7 +226,7 @@ Greenplum будет в 50% вакансиях на DE. Остальные бу�
 Презентация из видео ➜ [Greenplum](files/greenplum.pdf)
 
 ***
-### 13. ClickHouse
+### 12. ClickHouse
 
 <p align="center">
     <img src="./png/ch_logo.jpg"/>
@@ -241,7 +241,7 @@ ClickHouse будет в 80% вакансиях для постоения вит
 ➜ [Видео о ClickHouse от разработчика](https://www.youtube.com/watch?v=vbhSrZxm66E&t=119s)
 
 ***
-### 14. Spark
+### 13. Spark
 
 <p align="center">
     <img src="png/spark.png" alt="spark" width="600"/>
@@ -258,7 +258,7 @@ Spark изучайте только **после** **того**, как науч
 
 
 ***
-### 15. dbt (data build tool)
+### 14. dbt (data build tool)
 
 <p align="center">
     <img src="png/dbt_logo.png"
@@ -271,7 +271,7 @@ Spark изучайте только **после** **того**, как науч
  ➜ [Теория по dbt](DBT/README.md)
 
 ***
-### 16. Apache Kafka
+### 15. Apache Kafka
 
 <p align="center">
     <img src="png/kafka_logo.png"
@@ -285,7 +285,7 @@ Spark изучайте только **после** **того**, как науч
  ➜ [Видео по Kafka](https://www.youtube.com/watch?v=hbseyn-CfXY)
 
 ***
-### 17. Pet Project
+### 16. Pet Project
 
 <p align="center">
     <img src="png/pet_project.png" alt="pet_project" width="600"/>
@@ -299,7 +299,7 @@ Spark изучайте только **после** **того**, как науч
 
 
 ***
-### 18. Теоретические вопросы c собеседований
+### 17. Теоретические вопросы c собеседований
 
 <p align="center">
     <img src="png/que.jpg" alt="nf" width="600"/>
@@ -309,7 +309,7 @@ Spark изучайте только **после** **того**, как науч
 
 
 ***
-### 19. Резюме и Работа
+### 18. Резюме и Работа
 
 <p align="center">
     <img src="png/resume.jpg" width="500"/>
@@ -323,7 +323,7 @@ Spark изучайте только **после** **того**, как науч
 
 
 ***
-### 20. Рабочие кейсы
+### 19. Рабочие кейсы
 
 <p align="center">
     <img src="png/cases.jpg" width="600"/>
@@ -335,7 +335,7 @@ Spark изучайте только **после** **того**, как науч
 
 
 ***
-### 21. Полезные ссылки
+### 20. Полезные ссылки
 
 <p align="center">
     <img src="png/links.jpeg" width="600"/>
