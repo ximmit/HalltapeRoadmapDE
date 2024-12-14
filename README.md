@@ -36,7 +36,7 @@
 | [Канал Инженерообязанный Из военки в IT](https://t.me/Shust_DE) | [t.me/ShustDE](https://t.me/ShustDE) |
 | [Канал rzv Data Engineering](https://t.me/rzv_de) | [t.me/razvodov_de_mentor](https://t.me/razvodov_de_mentor) |
 
-
+**Хочешь стать автором?** [Кликай сюда!](CONTRIBUTING.md)
 
 ***
 
