@@ -130,6 +130,8 @@ URL like '%business/nbs/insales%','insales'
 
 **Пример кода на создание внешней таблицы в Greenplum**.
 При этом данные сгружаются в S3 и их можно прям потрогать
+
+**Запись из Greenplum в S3**
 ```sql
 Drop EXTERNAL TABLE if exists pxf_write_paqruet_s3;
 CREATE WRITABLE EXTERNAL TABLE pxf_write_paqruet_s3 (
@@ -143,6 +145,21 @@ INSERT into pxf_write_paqruet_s3
 select *
 from stg2.table
 where meta__checkpoint = '2024-10-01';
+```
+
+**Чтение из S3 в Greenplum**
+```sql
+Drop EXTERNAL TABLE if exists pxf_read_paqruet_s3;
+CREATE READABLE EXTERNAL TABLE pxf_read_paqruet_s3 (
+ visit_id text,
+ body text,
+ meta__checkpoint text
+)
+LOCATION ('pxf://data-lake/test/?PROFILE=s3:parquet&accesskey=***&secretkey=***&endpoint=https://storage.yandexcloud.net')
+FORMAT 'CUSTOM' (FORMATTER='pxfwritable_import');
+
+select *
+from pxf_read_paqruet_s3;
 ```
 
 Собственно в новом ГП мы делаем тоже самое, но уже не ``` INSERT INTO ```, а просто читаем, типа ``` SELECT * FROM TABLE ```. Это займет конечно время, если таблица огромная, но это всяко легче и быстрее, чем два предыдущих способа.
