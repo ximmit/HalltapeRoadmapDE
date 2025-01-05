@@ -272,6 +272,8 @@ Spark изучайте только **после** **того**, как науч
 
  ➜ [Теория по dbt](DBT/README.md)
 
+ ➜ [Видео от Дмитрия Аношина по dbt](https://t.me/rockyourdata/4977)
+
 ***
 ### 15. Apache Kafka
 
