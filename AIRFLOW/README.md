@@ -397,7 +397,7 @@ engine = create_engine('postgresql://user:user@host.docker.internal:5431/user')
 df.to_sql('table_name', engine, if_exists='append', schema='public', index=False)
 ```
 
-Но так как у нас есть дополнительное условие, а именно в XCom переменную положить колличество строк в файл, то опять обращается к **ti**.
+Но так как у нас есть дополнительное условие, а именно в XCom переменную положить количество строк в файл, то опять обращается к **ti**.
 
 ```
 ti = kwargs['ti']
