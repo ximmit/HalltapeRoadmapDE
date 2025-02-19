@@ -200,7 +200,7 @@ from pxf_read_paqruet_s3;
 
 Заметьте, создаю на ближайший месяц. И таблица создается все еще внутри Greenplum
 ```sql
-create table stg2.hasoffers__stats (
+create table stg2.hello_world (
     stat_date date null,
     body text null,
     meta__checkpoint text null
@@ -231,20 +231,20 @@ CREATE READABLE EXTERNAL TABLE pxf_read_paqruet_s3_stats (
     body text null,
     meta__checkpoint text null
 )
-LOCATION ('pxf://data-lake/hasoffers__stats/year=2024/partition_date=2024-01-*/?PROFILE=s3:parquet&accesskey=***&secretkey=***&endpoint=https://storage.yandexcloud.net')
+LOCATION ('pxf://data-lake/hello_world/year=2024/partition_date=2024-01-*/?PROFILE=s3:parquet&accesskey=***&secretkey=***&endpoint=https://storage.yandexcloud.net')
 FORMAT 'CUSTOM' (FORMATTER='pxfwritable_import');
 
 select *
 from pxf_read_paqruet_s3;
 
-insert into stg2.hasoffers__stats
+insert into stg2.hello_world
 select * from pxf_read_paqruet_s3_stats;
 ```
 
 ### Загрузка в Yezzey
 Каждый раз, когда я загружал данные за месяц, они сгружались в Hybrid Storage. Я делал это по 1-3 месяца за раз, но не более.
 ```sql
-SELECT yezzey_define_offload_policy('stg2', 'hasoffers__stats');
+SELECT yezzey_define_offload_policy('stg2', 'hello_world');
 ```
 
 ### Скрипт для создания партциий
@@ -262,7 +262,7 @@ BEGIN
         next_day := partition_start + INTERVAL '1 day';
         
         EXECUTE format(
-            'ALTER TABLE stg2.hasoffers__stats 
+            'ALTER TABLE stg2.hello_world 
             ADD PARTITION START (''%s'') END (''%s'');', 
             partition_start, next_day
         );
@@ -281,7 +281,7 @@ END $$;
 ```sql
 explain analyze
 select count(1)
-from stg2.hasoffers__stats
+from stg2.hello_world
 where stat_date = '2025-02-10';
 ```
 
@@ -307,7 +307,7 @@ Aggregate  (cost=168.03..168.04 rows=1 width=8) (actual time=730.806..730.807 ro
   ->  Gather Motion 48:1  (slice1; segments: 48)  (cost=167.51..168.01 rows=1 width=8) (actual time=39.514..730.637 rows=48 loops=1)
         ->  Aggregate  (cost=167.51..167.52 rows=1 width=8) (actual time=328.150..328.150 rows=1 loops=1)
               ->  Append  (cost=0.00..167.50 rows=1 width=0) (actual time=0.089..345.690 rows=64948 loops=1)
-                    ->  Seq Scan on hasoffers__stats_1_prt_r287043979  (cost=0.00..167.50 rows=1 width=0) (actual time=0.088..218.898 rows=64948 loops=1)
+                    ->  Seq Scan on hello_world_1_prt_r287043979  (cost=0.00..167.50 rows=1 width=0) (actual time=0.088..218.898 rows=64948 loops=1)
                           Filter: (stat_date = '2025-02-10'::date)
 Planning time: 2996.883 ms
   (slice0)    Executor memory: 4918K bytes.
@@ -323,7 +323,7 @@ Aggregate  (cost=56640.78..56640.79 rows=1 width=8) (actual time=4293.035..4293.
   ->  Gather Motion 48:1  (slice1; segments: 48)  (cost=56640.26..56640.76 rows=1 width=8) (actual time=977.990..4292.599 rows=48 loops=1)
         ->  Aggregate  (cost=56640.26..56640.28 rows=1 width=8) (actual time=1033.459..1033.460 rows=1 loops=1)
               ->  Append  (cost=0.00..50203.89 rows=53637 width=0) (actual time=1280.037..1334.369 rows=54148 loops=1)
-                    ->  Seq Scan on hasoffers__stats_1_prt_r798590680  (cost=0.00..50203.89 rows=53637 width=0) (actual time=1280.037..1326.521 rows=54148 loops=1)
+                    ->  Seq Scan on hello_world_1_prt_r798590680  (cost=0.00..50203.89 rows=53637 width=0) (actual time=1280.037..1326.521 rows=54148 loops=1)
                           Filter: (stat_date = '2024-02-10'::date)
 Planning time: 2388.470 ms
   (slice0)    Executor memory: 4918K bytes.
@@ -338,7 +338,7 @@ Execution time: 4467.812 ms
 Aggregate  (cost=64656610.72..64656610.73 rows=1 width=8) (actual time=209189.974..209189.974 rows=1 loops=1)
   ->  Gather Motion 48:1  (slice1; segments: 48)  (cost=64656610.21..64656610.71 rows=1 width=8) (actual time=77770.652..209189.813 rows=48 loops=1)
         ->  Aggregate  (cost=64656610.21..64656610.22 rows=1 width=8) (actual time=135874.293..135874.293 rows=1 loops=1)
-              ->  Seq Scan on hasoffers__stats_old  (cost=0.00..64651431.80 rows=43154 width=0) (actual time=694.990..82860.795 rows=54016 loops=1)
+              ->  Seq Scan on hello_world_old  (cost=0.00..64651431.80 rows=43154 width=0) (actual time=694.990..82860.795 rows=54016 loops=1)
                     Filter: (stat_date = '2024-02-10'::text)
 Planning time: 1.600 ms
   (slice0)    Executor memory: 266K bytes.
