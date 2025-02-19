@@ -63,6 +63,10 @@
 ### 1. Кто такой Дата Инженер?
 Чтобы понять, кто такой дата инженер и как им стать, посмотри видео!
 
+Чтобы смотреть Youtube без тормозов, используй наш VPN!
+
+[VPN для YOUTUBE](https://t.me/NamelessNetwork_bot)
+Промокод: DE (FREE 2 недели)
 
 <p align="center">
     <img src="png/de1.jpg" alt="de" width="600"/>
