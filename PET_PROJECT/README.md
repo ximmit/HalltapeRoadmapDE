@@ -5,6 +5,7 @@
 - [Pet Project](#pet-project)
   - [Содержание страницы](#содержание-страницы)
   - [Проекты](#проекты)
+    - [Проект №0 - Sandbox DB](#проект-0---sandbox-db)
     - [Проект №1 - HalltapeETLPipeline](#проект-1---halltapeetlpipeline)
     - [Проект №2 - spacex-api-analize](#проект-2---spacex-api-analize)
     - [Проект №3 - Create mart in PySpark](#проект-3---create-mart-in-pyspark)
@@ -12,6 +13,12 @@
   - [Открытые API для проектов](#открытые-api-для-проектов)
 
 ## Проекты
+
+### Проект №0 - Sandbox DB
+
+**Песочница для Дата Инженера** ➜ [Sandbox DB](https://gitflic.ru/project/ananevsyu/sandbox_db_public)
+
+---
 
 ### Проект №1 - HalltapeETLPipeline
 
