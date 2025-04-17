@@ -35,6 +35,8 @@
 | [Канал Я – Дата Инженер](https://t.me/halltape_data) | [t.me/halltape](https://t.me/halltape) |
 | [Канал Инженерообязанный Из военки в IT](https://t.me/Shust_DE) | [t.me/ShustDE](https://t.me/ShustDE) |
 | [Канал rzv Data Engineering](https://t.me/rzv_de) | [t.me/razvodov_de_mentor](https://t.me/razvodov_de_mentor) |
+| [Канал Data Engineer Lab](https://t.me/dataengineerlab) | [t.me/ampodvalniy](https://t.me/ampodvalniy) |
+
 
 **Хочешь стать автором?** [Кликай сюда!](CONTRIBUTING.md)
 
@@ -197,8 +199,8 @@
     <img src="png/hadoop_logo.png" alt="hdfs" width="600"/>
 </p>
 
-
 На некоторых проектах в качестве хранилища будет HDFS (Hadoop). Инфы из видоса снизу будет достаточно, чтобы успешно ответить на вопросы на собеседовании.
+➜ [Теория по Hadoop](HADOOP/README.md)
 
 Смотри видео здесь ➜ [HDFS | Что это такое и как оно работает? [Hadoop HDFS]](https://youtu.be/ySDGh_1d87g)
 
