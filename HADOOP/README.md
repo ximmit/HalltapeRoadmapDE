@@ -2,7 +2,8 @@
 
 <img align="left" width="200" src="../png/amp.jpg" />
 
-**Подвальный Артем**,  Веду:
+**Подвальный Артем**,  
+Веду:
 
    [Telegram канал](https://t.me/dataengineerlab)
 
