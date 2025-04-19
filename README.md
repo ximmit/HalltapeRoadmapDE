@@ -265,7 +265,7 @@ Spark изучайте только **после** **того**, как науч
 
 ➜ [PartitionBy и BucketBy в Spark](https://www.youtube.com/watch?v=YIpL4E9amJU&t=648s)
 
-Разверни свой Spark кластер или запусти его локально тут ➜ [Spark Cluster](https://github.com/halltape/HalltapeSparkCluster/tree/main)
+➜ [Разверни свой Spark кластер](https://github.com/halltape/HalltapeSparkCluster/tree/main)
 
 ➜ [Полезные материалы по Spark](SPARK/README.md)
 
