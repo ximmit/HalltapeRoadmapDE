@@ -65,9 +65,9 @@
 ### 1. Кто такой Дата Инженер?
 Чтобы понять, кто такой дата инженер и как им стать, посмотри видео!
 
-Чтобы смотреть Youtube без тормозов, используй наш VPN!
+Чтобы смотреть Youtube без тормозов, используй нашего бота!
 
-[VPN для YOUTUBE](https://t.me/NamelessNetwork_bot)
+[Бот для YOUTUBE](https://t.me/NamelessNetwork_bot)
 Промокод: DE (FREE 2 недели)
 
 <p align="center">
@@ -179,9 +179,9 @@
 
 Не факт, что на первой работе вы будете сразу строить Data Vault. Это вообще настолько не факт, что может остаться у вас в теории еще на год вперед. Но на собесах спросить могут. Более того, вам могут дать тестовое на то, чтобы построить простенькую модельку на базе Data Vault. Грубо говоря – это все про то, как связать таблицы между собой...
 
-Видос про Data Vault ➜ [YouTube](https://www.youtube.com/watch?v=qTIUITuHypA)
+ ➜ [Что такое Data Vault](https://www.youtube.com/watch?v=qTIUITuHypA)
 
-Читаем конспект ➜ [Data Vault](files/data_vault.pdf)
+ ➜ [Конспект Data Vault](files/data_vault.pdf)
 
 ***
 ### 8. Docker
@@ -203,7 +203,7 @@
 
 ➜ [Теория по Hadoop](HADOOP/README.md)
 
-Смотри видео здесь ➜ [HDFS | Что это такое и как оно работает? [Hadoop HDFS]](https://youtu.be/ySDGh_1d87g)
+➜ [HDFS | Что это такое и как оно работает? [Hadoop HDFS]](https://youtu.be/ySDGh_1d87g)
 
 Презентация из видео ➜ [HDFS](files/deep_dive_hdfs_pdf.pdf)
 
@@ -259,11 +259,11 @@ ClickHouse будет в 80% вакансиях для постоения вит
 
 Spark изучайте только **после** **того**, как научились базово кодить на **Python** и **SQL**. Без них будет очень **сложно** и **непонятно**.
 
-1. Смотри видео ➜ [Что такое Spark и как им пользоваться?](https://www.youtube.com/watch?v=Gj0oSVmv7k4)
+➜ [Что такое Spark и как им пользоваться?](https://www.youtube.com/watch?v=Gj0oSVmv7k4)
 
-2. Смотри видео ➜ [Как работают JOIN в Spark](https://www.youtube.com/watch?v=5S2vUcUC0mo&t=1s)
+➜ [Как работают JOIN в Spark](https://www.youtube.com/watch?v=5S2vUcUC0mo&t=1s)
 
-3. Смотри видео ➜ [PartitionBy и BucketBy в Spark](https://www.youtube.com/watch?v=YIpL4E9amJU&t=648s)
+➜ [PartitionBy и BucketBy в Spark](https://www.youtube.com/watch?v=YIpL4E9amJU&t=648s)
 
 Разверни свой Spark кластер или запусти его локально тут ➜ [Spark Cluster](https://github.com/halltape/HalltapeSparkCluster/tree/main)
 
