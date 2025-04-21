@@ -1,6 +1,6 @@
 ## Куратор раздела
 
-<img align="left" width="200" src="../png/amp.jpg" />
+<img align="left" width="200" src="../../png/amp.jpg" />
 
 **Подвальный Артем** 
 
