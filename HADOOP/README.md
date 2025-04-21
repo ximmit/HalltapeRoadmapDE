@@ -6,7 +6,8 @@
 
    [Telegram канал](https://t.me/dataengineerlab)
 
-Хочешь вкатиться в дата-инженерию, но не знаешь как? Пиши -  составим резюме, продумаем твое развитие https://dataengineers.pro/mentors/artyompodvalny 
+Хочешь перейти в дата-инженерию, но не знаешь с чего начать? Пиши -  составим резюме, продумаем твое развитие [https://t.me/ampodvalniy](https://t.me/ampodvalniy)
+ 
 
 Хочешь улучшить текущий раздел, внести недостающее или поправить формулировку? Предлагай PR и тегай [@Artemlin6231](https://github.com/Artemlin6231)
 
