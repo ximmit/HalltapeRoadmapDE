@@ -187,7 +187,6 @@ Apache Spark — представляет собой целую экосисте
 - **Hadoop / HDFS**
 - **Apache Hive**
 - **Apache HBase**
-- **Apache Cassandra**
 - **PostgreSQL**, **MySQL**
 - **CSV**, **JSON**, **Parquet**
 - **Elasticsearch** и другие
