@@ -203,7 +203,7 @@
 
 ➜ [Теория по Hadoop](HADOOP/README.md)
 
-➜ [Теория по Экосистеме](HADOOP/Экосистема hadoop/README.md)
+➜ [Теория по Экосистеме](HADOOP/ECOSYSTEM_HADOOP/README.md)
 
 
 Смотри видео здесь ➜ [HDFS | Что это такое и как оно работает? [Hadoop HDFS]](https://youtu.be/ySDGh_1d87g)
