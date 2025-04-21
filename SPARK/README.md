@@ -71,9 +71,11 @@ Apache spark - это распределенный фреймворк обраб
   - `external*` (при внешней настройке)
  
   
-## ⚙️ Архитектура и модель вычислений Spark
+## ⚙Архитектура и модель вычислений Spark
 
-![Spark Architecture](./spark_arch.png)
+<p align="center">
+    <img src="./../png/spark_arch.png" alt="hadoop"/>
+</p>
 
 ### Компоненты архитектуры
 
