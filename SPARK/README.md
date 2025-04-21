@@ -2,7 +2,7 @@
 
 <img align="left" width="200" src="../png/amp.jpg" />
 
-**Подвальный Артем** , Data Engineer/Data scienist
+**Подвальный Артем** 
 
    [Telegram канал](https://t.me/dataengineerlab)
 
