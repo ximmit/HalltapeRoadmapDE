@@ -22,7 +22,7 @@
 
 
 <p align="center">
-    <img src="../../png/yarn_map_reduce.jpg" alt="map_reduce"/>
+    <img src="./../../png/yarn_map_reduce.jpg" alt="map_reduce"/>
 </p>
 
 ### HDFS (Hadoop Distributed File System)
