@@ -205,6 +205,7 @@
 
 ➜ [Теория по Экосистеме](HADOOP/Экосистема hadoop/README.md)
 
+
 Смотри видео здесь ➜ [HDFS | Что это такое и как оно работает? [Hadoop HDFS]](https://youtu.be/ySDGh_1d87g)
 
 Презентация из видео ➜ [HDFS](files/deep_dive_hdfs_pdf.pdf)
