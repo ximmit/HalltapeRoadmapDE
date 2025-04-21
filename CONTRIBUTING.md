@@ -35,7 +35,7 @@ Roadmap – бесплатный агрегатор контента для Data
 - Debezium
 - Kafka (теория по аналогии с Greenplum)
 - Spark (теория по аналогии с Greenplum)
-- Коннекторы к БД (как подключиться к Snowflake, S3, Greenplum, Clickhouseи так далее)
+- Коннекторы к БД (как подключиться к Snowflake, S3, Greenplum, Clickhouse и так далее)
 - AI, ChatGPT, AI IDE и прочие современные AI помощники
 - Ссылки на полезные ресурсы (Youtube каналы, Сообщества, Телеграм каналы)
 - Полезные контакты (менторы, HR) 
