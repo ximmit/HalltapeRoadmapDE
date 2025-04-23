@@ -262,7 +262,6 @@ ClickHouse будет в 80% вакансиях для постоения вит
 
 
 Spark изучайте только **после** **того**, как научились базово кодить на **Python** и **SQL**. Без них будет очень **сложно** и **непонятно**.
-➜ [Теория по Spark](SPARK/README.md)
 
 ➜ [Что такое Spark и как им пользоваться?](https://www.youtube.com/watch?v=Gj0oSVmv7k4)
 
@@ -271,6 +270,8 @@ Spark изучайте только **после** **того**, как науч
 ➜ [PartitionBy и BucketBy в Spark](https://www.youtube.com/watch?v=YIpL4E9amJU&t=648s)
 
 ➜ [Разверни свой Spark кластер](https://github.com/halltape/HalltapeSparkCluster/tree/main)
+
+➜ [Полезные материалы по Spark](SPARK/README.md)
 
 
 ***
