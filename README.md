@@ -263,15 +263,19 @@ ClickHouse будет в 80% вакансиях для постоения вит
 
 Spark изучайте только **после** **того**, как научились базово кодить на **Python** и **SQL**. Без них будет очень **сложно** и **непонятно**.
 
+**Уровень Spark для Junior:**
+
+➜ [Теория по Spark](SPARK/BASE/README.md)
+
 ➜ [Видео "Что такое Spark и как им пользоваться?"](https://www.youtube.com/watch?v=Gj0oSVmv7k4)
 
 ➜ [Видео "Как работают JOIN в Spark"](https://www.youtube.com/watch?v=5S2vUcUC0mo&t=1s)
 
 ➜ [Видео "PartitionBy и BucketBy в Spark"](https://www.youtube.com/watch?v=YIpL4E9amJU&t=648s)
 
-➜ [Разверни свой Spark кластер](https://github.com/halltape/HalltapeSparkCluster/tree/main)
+**Уровень Spark для Junior+ и выше:**
 
-➜ [Полезные материалы по Spark](SPARK/README.md)
+➜ [Продвинутая теория по Spark](SPARK/ADVANCED/README.md)
 
 
 ***
