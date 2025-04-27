@@ -19,6 +19,8 @@
     - [11. Greenplum](#11-greenplum)
     - [12. ClickHouse](#12-clickhouse)
     - [13. Spark](#13-spark)
+  - [🧩 Уровень: Junior](#-уровень-junior)
+  - [🚀 Уровень: Junior+ и выше](#-уровень-junior-и-выше)
     - [14. dbt (data build tool)](#14-dbt-data-build-tool)
     - [15. Apache Kafka](#15-apache-kafka)
     - [16. Pet Project](#16-pet-project)
@@ -263,19 +265,23 @@ ClickHouse будет в 80% вакансиях для постоения вит
 
 Spark изучайте только **после** **того**, как научились базово кодить на **Python** и **SQL**. Без них будет очень **сложно** и **непонятно**.
 
-**Уровень Spark для Junior:**
 
-➜ [Теория по Spark](SPARK/BASE/README.md)
+## 🧩 Уровень: Junior
 
-➜ [Видео "Что такое Spark и как им пользоваться?"](https://www.youtube.com/watch?v=Gj0oSVmv7k4)
+> Основы работы с Spark, понимание базовых концепций.
 
-➜ [Видео "Как работают JOIN в Spark"](https://www.youtube.com/watch?v=5S2vUcUC0mo&t=1s)
+- 📚 **Теория**: [Теория по Spark](SPARK/BASE/README.md)
+- 🎥 **Видео**: [Что такое Spark и как им пользоваться?](https://www.youtube.com/watch?v=Gj0oSVmv7k4)
+- 🎥 **Видео**: [Как работают JOIN в Spark](https://www.youtube.com/watch?v=5S2vUcUC0mo&t=1s)
+- 🎥 **Видео**: [PartitionBy и BucketBy в Spark](https://www.youtube.com/watch?v=YIpL4E9amJU&t=648s)
 
-➜ [Видео "PartitionBy и BucketBy в Spark"](https://www.youtube.com/watch?v=YIpL4E9amJU&t=648s)
+---
 
-**Уровень Spark для Junior+ и выше:**
+## 🚀 Уровень: Junior+ и выше
 
-➜ [Продвинутая теория по Spark](SPARK/ADVANCED/README.md)
+> Более глубокое понимание Spark, оптимизация и продвинутые техники.
+
+- 📚 **Теория**: [Продвинутая теория по Spark](SPARK/ADVANCED/README.md)
 
 
 ***
