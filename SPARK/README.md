@@ -1,4 +1,4 @@
-# Apache Spark
+
 
 Ниже полезные материалы, которые помогут в освоении Spark:
 - [Теория по Spark в PDF](../files/spark.pdf)

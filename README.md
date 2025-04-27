@@ -199,11 +199,15 @@
     <img src="png/hadoop_logo.png" alt="hdfs" width="600"/>
 </p>
 
-На некоторых проектах в качестве хранилища будет HDFS (Hadoop). Инфы из видоса снизу будет достаточно, чтобы успешно ответить на вопросы на собеседовании.
+На многих проектах в качестве хранилища используют  HDFS (Hadoop) и инструменты экосистемы hadoop. Также по нему  часто спрашивают на собеседованиях:
 
 ➜ [Теория по Hadoop](HADOOP/README.md)
 
-➜ [HDFS | Что это такое и как оно работает? [Hadoop HDFS]](https://youtu.be/ySDGh_1d87g)
+➜ [Теория по Экосистеме](HADOOP/ECOSYSTEM_HADOOP/README.md)
+
+
+Смотри видео здесь ➜ [HDFS | Что это такое и как оно работает? [Hadoop HDFS]](https://youtu.be/ySDGh_1d87g)
+
 
 Презентация из видео ➜ [HDFS](files/deep_dive_hdfs_pdf.pdf)
 
