@@ -275,6 +275,9 @@ Spark изучайте только **после** **того**, как науч
 - 🎥 **Видео**: [Как работают JOIN в Spark](https://www.youtube.com/watch?v=5S2vUcUC0mo&t=1s)
 - 🎥 **Видео**: [PartitionBy и BucketBy в Spark](https://www.youtube.com/watch?v=YIpL4E9amJU&t=648s)
 
+### ⚙️ Архитектура Spark
+
+- 📚 **Теория**: [Архитектура Spark](SPARK/ARCHITECTURE/README.md)
 
 ### 🚀 Уровень: Junior+ и выше
 
