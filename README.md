@@ -1,5 +1,5 @@
 # HalltapeRoadmapDE
-<i>Roadmap для Data Engineer | Актуально на 2024-2025г.</i>
+<i>Roadmap для Data Engineer | Актуально на 2025г.</i>
 
 Оглавление
 - [HalltapeRoadmapDE](#halltaperoadmapde)
