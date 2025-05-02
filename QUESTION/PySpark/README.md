@@ -18,7 +18,6 @@
 16. Какие виды кэширования существуют в Spark и чем они отличаются?
 17. Что такое persist в Spark и какие storage levels существуют?
 18. Какие настройки Spark applications вы используете?
-19. Сколько гигабайт памяти выделяется на каждую задачу в Spark?
-20. Что такое broadcast join в Spark и как его настроить?
-21. Что такое ленивые вычисления в Spark?
-22. Что такое Adaptive query execution?
+19. Что такое broadcast join в Spark и как его настроить?
+20. Что такое ленивые вычисления в Spark?
+21. Что такое Adaptive query execution?
