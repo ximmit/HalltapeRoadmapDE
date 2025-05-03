@@ -464,3 +464,12 @@ spark.dynamicAllocation.executorIdleTimeout=60s  # удаляет исполни
 - Broadcast и Sort-Merge - основа для распределенных систем.  
 - Всегда анализируйте план выполнения (explain в SQL, df.explain() в Spark) + метрики (память, сеть).
 ***
+
+## Как Apache Spark читает файлы
+
+Рекомендую очень годную статью про чтение Spark разных типов файлов: 
+
+[Как Apache Spark читает файлы](https://habr.com/ru/articles/896492/)  
+
+
+
