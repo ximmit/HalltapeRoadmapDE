@@ -465,11 +465,12 @@ spark.dynamicAllocation.executorIdleTimeout=60s  # удаляет исполни
 - Всегда анализируйте план выполнения (explain в SQL, df.explain() в Spark) + метрики (память, сеть).
 ***
 
-## Как Apache Spark читает файлы
+## Оптимизация Spark 
 
-Рекомендую очень годную статью про чтение Spark разных типов файлов: 
+Рекомендую очень годные статьи про Spark: 
 
 [Как Apache Spark читает файлы](https://habr.com/ru/articles/896492/)  
 
+[Оптимизация запросов в Apache Spark](https://habr.com/ru/articles/901078/)  
 
 
