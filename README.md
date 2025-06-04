@@ -273,6 +273,8 @@ ClickHouse будет в 80% вакансиях для постоения вит
 
 ➜ [Видео о ClickHouse от разработчика](https://www.youtube.com/watch?v=vbhSrZxm66E&t=119s)
 
+➜ [Docker compose кластера](CLICKHOUSE/Dop_mat/clickhouse-cluster/README.md)
+
 ***
 ## 13. Spark
 
