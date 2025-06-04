@@ -55,8 +55,4 @@ make down
 ```
 ## Дополнительная конфигурация
 
-Полазте по проекту, там нет абсолютно ничего сложного. Если захотите настройте его под себя. 
-
-А с другоой стороны:
-
-[![Не лезь бл*ть оно тебя сожрёт](https://markdown-videos-api.jorgenkh.no/youtube/rTSODCT4mKw)](https://www.youtube.com/watch?v=oqRuyaVv_0A&list=PLYtH_gZiwIjiKTGP-4gI75NL4fTXZHker&rco=1)
+Полазте по проекту, там нет абсолютно ничего сложного. Если захотите настройте его под себя.
