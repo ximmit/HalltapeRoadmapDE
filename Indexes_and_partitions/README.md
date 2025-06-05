@@ -1,6 +1,6 @@
 ## Куратор раздела
 
-<img align="left" width="200" src="../../png/pengwin.jpg" />
+<img align="left" width="200" src="../png/pengwin.jpg" />
 
 
 **it пингвин**, 
@@ -28,17 +28,15 @@
 ## Объяснение на пальцах:
 
 
+**1. Таблица без индексов и партиций (просто мешок)**
+
 Давайте представим, что у нас есть мешок с кубиками, на которых номерки:
 
-
-
-
-**1. Таблица без индексов и партиций (просто мешок)**
 
 Как выглядит:
 
 <p align="center">
-    <img src="../../png/indexes_and_partitions/ind_part_bag.png" alt="indexes_and_partitions" />
+    <img src="../png/indexes_and_partitions/ind_part_bag.png" alt="indexes_and_partitions" />
 </p>
 
 
@@ -72,7 +70,7 @@ CREATE TABLE bags (
 Или можно представить, что у кубиков еще есть цвета (нейронка не смогла числа  нарисовать, ну ничего страшного):
 
 <p align="center">
-    <img src="../../png/indexes_and_partitions/ind_part_three_bags.png" alt="indexes_and_partitions" />
+    <img src="../png/indexes_and_partitions/ind_part_three_bags.png" alt="indexes_and_partitions" />
 </p>
 
 
@@ -224,7 +222,7 @@ CREATE INDEX idx_number ON indexed_bags (number_cube);
 
 
 <p align="center">
-    <img src="../../png/indexes_and_partitions/ind_clust_vs_non_clust.png" alt="indexes_and_partitions" />
+    <img src="../png/indexes_and_partitions/ind_clust_vs_non_clust.png" alt="indexes_and_partitions" />
 </p>
 
 
@@ -269,7 +267,7 @@ CREATE INDEX idx_number ON indexed_bags (number_cube);
 Не путать с бинарным деревом. В бинарном дереве делим на 2 и оно получается очень "высоким". Сбалансированное дерево "широкое" и в глубь обычно немного уровней. Для большого количества данных, коненчно, сбалансированное дерево более эффективно.
 
 <p align="center">
-    <img src="../../png/indexes_and_partitions/ind_btree.png" alt="indexes_and_partitions" />
+    <img src="../png/indexes_and_partitions/ind_btree.png" alt="indexes_and_partitions" />
 </p>
 
 
@@ -313,14 +311,14 @@ CREATE INDEX idx_user ON test.user (id);
 Реверсивный индекс **распределяет вставки равномерно** по всему дереву. 
 
 <p align="left">
-    <img src="../../png/indexes_and_partitions/ind_btree_revers1.png" alt="indexes_and_partitions" />
+    <img src="../png/indexes_and_partitions/ind_btree_revers1.png" alt="indexes_and_partitions" />
 </p>
 
 
 Пусть для хранения индекса слов используется кластер, состоящий из 5 серверов:
 
 <p align="center">
-    <img src="../../png/indexes_and_partitions/ind_btree_revers2.png" alt="indexes_and_partitions" />
+    <img src="../png/indexes_and_partitions/ind_btree_revers2.png" alt="indexes_and_partitions" />
 </p>
 
 
@@ -339,7 +337,7 @@ CREATE INDEX idx_user ON test.user (id);
 Хеш-значение используется для определения номера бакета (корзины), в который будет помещена запись. В PostgreSQL количество бакетов изначально равно двум и увеличивается динамически по мере роста данных. Номер бакета вычисляется с помощью битовой арифметики на основе хеш-значения.
 
 <p align="center">
-    <img src="../../png/indexes_and_partitions/ind_hash.png" alt="indexes_and_partitions" />
+    <img src="../png/indexes_and_partitions/ind_hash.png" alt="indexes_and_partitions" />
 </p>
 
 
@@ -396,8 +394,8 @@ B-Tree индекс дает скорость выборки порядка log(
 Пару картинок-примеров для понимания :)
 
 <p align="center">
-    <img src="../../png/indexes_and_partitions/ind_bitmap1.png" alt="indexes_and_partitions" />
-     <img src="../../png/indexes_and_partitions/ind_bitmap2.png" alt="indexes_and_partitions" />
+    <img src="../png/indexes_and_partitions/ind_bitmap1.png" alt="indexes_and_partitions" />
+     <img src="../png/indexes_and_partitions/ind_bitmap2.png" alt="indexes_and_partitions" />
 </p>
 
 
@@ -406,7 +404,7 @@ B-Tree индекс дает скорость выборки порядка log(
 Рассмотрим еще один пример -  коллекцию документов с полями Category и Public. Мы хотим получить документы, которые относятся к категории Tech и открыты для публики. В этом случае ключами для наших растровых индексов будут Tech и Public.
 
 <p align="center">
-    <img src="../../png/indexes_and_partitions/ind_bitmap3.png" alt="indexes_and_partitions" />
+    <img src="../png/indexes_and_partitions/ind_bitmap3.png" alt="indexes_and_partitions" />
 </p>
 
 Как показано на рисунке, растровые индексы для Category и Public будут следующими.
@@ -480,7 +478,7 @@ SP-GiST (Space-Partitioned GiST) – для нерегулярных струк�
 Каждый раздел — это отдельный сегмент таблицы, которым можно управлять независимо. Например, вы можете разделить данные о продажах по годам, при этом каждый год будет находиться в своем собственном разделе.
 
 <p align="center">
-    <img src="../../png/indexes_and_partitions/partitions.png" alt="indexes_and_partitions" />
+    <img src="../png/indexes_and_partitions/partitions.png" alt="indexes_and_partitions" />
 </p>
 
 Большинство СУБД позволяет дробить партиции еще на секции - субпартиции.
