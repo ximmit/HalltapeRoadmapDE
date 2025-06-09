@@ -33,12 +33,6 @@ make config up
 - `default` - no password
 - `admin` - password `123`
 
-## Пример подключения через DBeaver
-
-<p align="center">
-    <img src="./../../../png/ch_con_settings.jpg" alt="Пример подключения" width="600"/>
-</p>
-
 ## Старт и останвка
 
 Старт и остановка контейнерос
