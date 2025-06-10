@@ -33,12 +33,6 @@ make config up
 - `default` - no password
 - `admin` - password `123`
 
-## Пример подключения через DBeaver
-
-<p align="center">
-    <img src="./../../../png/ch_con_settings.jpg" alt="Пример подключения" width="600"/>
-</p>
-
 ## Старт и останвка
 
 Старт и остановка контейнерос
@@ -55,8 +49,4 @@ make down
 ```
 ## Дополнительная конфигурация
 
-Полазте по проекту, там нет абсолютно ничего сложного. Если захотите настройте его под себя. 
-
-А с другоой стороны:
-
-[![Не лезь бл*ть оно тебя сожрёт](https://markdown-videos-api.jorgenkh.no/youtube/rTSODCT4mKw)](https://www.youtube.com/watch?v=oqRuyaVv_0A&list=PLYtH_gZiwIjiKTGP-4gI75NL4fTXZHker&rco=1)
+Полазте по проекту, там нет абсолютно ничего сложного. Если захотите настройте его под себя.
