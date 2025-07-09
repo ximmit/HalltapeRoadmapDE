@@ -70,7 +70,7 @@
 
 ***
 ## 2. Курсы
-Узнать о базовых вещах. Курс Компьютерная грамотность: https://netology.ru/profile/program/complit-1/schedule
+Узнать о базовых вещах на курсе по компьютерной грамотности.
 Дальше тебе нужно научиться писать базовые запросы на SQL (для дальнейшей работы с базами данных) и на Python (для построении логики программы). В тренажерах внизу проходи так, как там просят. Не спрашивай зачем, тебе понадобятся эти инструменты в будущем!
 
 Пройди эти три курса SQL и Python
@@ -79,6 +79,10 @@
   <tr>
     <th align="center">Курс</th>
     <th align="center">Продолжительность</th>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://netology.ru/profile/program/complit-1/schedule">Компьютерная грамотность</a></td>
+    <td align="center">≈ 1 неделя</td>
   </tr>
   <tr>
     <td align="center"><a href="https://karpov.courses/simulator-sql">SQL с нуля до оконок</a></td>
@@ -105,8 +109,21 @@
 
 Регистрируешься на Github и подключаешь его к своему ПК
 
-- Базовый курс с практикой: [https://ru.hexlet.io/programs/git-basics-free](https://ru.hexlet.io/programs/git-basics-free)
-➜ [Работа с github / git](Git/README.md)
+<table>
+  <tr>
+    <th align="center">Курс</th>
+    <th align="center">Продолжительность</th>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://ru.hexlet.io/programs/git-basics-free">Базовый курс с практикой</a></td>
+    <td align="center">≈ 1 неделя</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="Git/README.md">Работа с github / git</a></td>
+    <td align="center">≈ 1-2 месяца</td>
+  </tr>
+</table>
+
 
 ***
 ## 4. Linux / Terminal
