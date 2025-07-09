@@ -84,6 +84,10 @@
     <td align="center">≈ 1 неделя</td>
   </tr>
   <tr>
+    <td align="center"><a href="https://klava.org/delta/#eng_basic">Слепая печать</a></td>
+    <td align="center">≈ Постоянная практика по 10-15 мин в день</td>
+  </tr>
+  <tr>
     <td align="center"><a href="https://karpov.courses/simulator-sql">SQL с нуля до оконок</a></td>
     <td align="center">≈ 1-2 месяца</td>
   </tr>
@@ -99,6 +103,7 @@
 
 >Если задача не получается и ты сидишь с ней уже больше часа, пропускай и переходи к следующей. Потом вернешься и дорешаешь, если будет желание. Не гонись за 100%. Это никто не оценит.
 >
+
 ***
 ## 3. Github / Git
 
